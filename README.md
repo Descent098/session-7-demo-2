@@ -1,30 +1,23 @@
 # ezcv
-*A template repo for bootstrapping ezcv projects*
 
-This demo assumes you are:
-1. Using GitHub
-2. Using GitHub pages for deployment
-3. Know [Markdown Syntax](https://www.markdownguide.org/basic-syntax/)
+Hi, welcome to [ezcv](https://ezcv.readthedocs.io/en/latest/). This is a batteries-included static site generator
 
-## Setup
-1. Click on "Use this template" on the [GitHub Repo](https://github.com/QU-UP/ezcv)
-2. On the new repository page MAKE SURE YOU CHECK OFF "Include all branches"
+## Getting started
 
-## Usage
+Everything you need to get up and running.
 
-There are two options for creating your site; local and remote editing.
+### Requirements
 
-Regardless of which you choose, go through and pick out an [included theme](https://ezcv.readthedocs.io/en/latest/included-themes/), and use that to guide which section and configuration variables you need
+To get started you will need python 3.8+ and pip for that python version. Once you have that you will need to install ezcv `pip install ezcv`
 
-### Remote editing
+### Running the project
 
-Follow the steps outlined on [this guide](https://ezcv.readthedocs.io/en/latest/quick-start/#remote-editing)
+You can preview your project using `ezcv -p`, and generate your project fully using `ezcv build` which will build the site to `/site`. You can also set it to minify the output files to improve your performance on the site using `ezcv build -o` (this takes longer to build).
 
-### Local Editing
+### Additional documentation
 
-To edit locally you should know how to use [git](https://git-scm.com/).
+There is additional documentation available that will be helpful to you:
 
-1. Install a markdown editor (you can technically use any text editor but I would recommend a real editor) such as [typora](https://typora.io/)
-2. Clone your git repo
-3. Add in your content
-4. On push to main/master the site will be deployed to github pages for you
+- [List of themes for ezcv](https://ezcv.readthedocs.io/en/latest/included-themes/)
+- [ezcv usage guide](https://ezcv.readthedocs.io/en/latest/usage/)
+- [cli documentation for ezcv](https://ezcv.readthedocs.io/en/latest/cli/)
